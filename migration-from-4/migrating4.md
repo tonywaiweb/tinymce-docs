@@ -6,7 +6,7 @@ description: Instructions for migrating from TinyMCE 4 to TinyMCE 5.
 keywords: migration considerations premigration pre-migration
 ---
 
-## Migrating from 4.x
+## Migrating from version 4
 
 ### Initialization
 
@@ -15,7 +15,7 @@ It still retains a familiar JSON structure. However, the properties have been gr
 
 ### Plugins
 
-In version 5.0 some plugins have moved. These plugins are now a part of the core editor and are not required to be declared in the plugins setting.
+In version 5 some plugins have moved. These plugins are now a part of the core editor and are not required to be declared in the plugins setting.
 
 #### Moved Plugins
 
@@ -26,7 +26,7 @@ In version 5.0 some plugins have moved. These plugins are now a part of the core
 
 ### Themes
 
-In version 5.0, some themes have been removed and are now combined in a new single responsive theme called **Silver**.
+In version 5, some themes have been removed and are now combined in a new single responsive theme called **Silver**.
 
 | **Removed Theme** | **Replaced by** |
 | ----------------- | --------------  |
@@ -37,7 +37,7 @@ In version 5.0, some themes have been removed and are now combined in a new sing
 
 ### Settings
 
-In version 5.0, some configurations have been removed because they are no longer necessary or an improved solution has been introduced.
+In version 5, some configurations have been removed because they are no longer necessary or an improved solution has been introduced.
 
 #### Changed Settings
 

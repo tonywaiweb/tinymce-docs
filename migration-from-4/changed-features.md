@@ -3,7 +3,7 @@ layout: default
 title: Changed Features
 title_nav: Changed Features
 description: These features have either changed or have been deleted in TinyMCE 5.
-keywords: deleted removed changedfeatures migration 4.x
+keywords: deleted removed changedfeatures migration 4
 ---
 
 Each release of TinyMCE adds new features and functionality. We also occasionally remove features and functionality, usually because we've added a better option.
@@ -64,7 +64,7 @@ The following plugins from TinyMCE 4 do not require height or width options to b
 * [Preview]({{site.baseurl}}plugins/preview/)
 * [Template]({{site.baseurl}}plugins/template/)
 
-Please read the [docs]({{site.baseurl}}/plugins/) if you need more information on the Tiny 4.x configuration options.
+Please read the [docs]({{site.baseurl}}/plugins/) if you need more information on the TinyMCE 4 configuration options.
 
 
 ### Table

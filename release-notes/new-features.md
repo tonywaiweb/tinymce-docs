@@ -22,7 +22,7 @@ TinyMCE 5 has an ARIA [IBM standards](https://www.ibm.com/able/checklists.html) 
 * I18n (via config layer)
 * Easier for developers to build their own plugins
 * Easier to meet requests that come from their internal stakeholders or clients
-* Custom plugins can more easily match the look and feel of the editor as opposed to Tiny 4.x
+* Custom plugins can more easily match the look and feel of the editor as opposed to TinyMCE 4
 * If the custom plugins have dialogs, it’s now easier to create dialogs
 * Can also create chained dialogs
 * Easier for developers to contribute to the open source editor
@@ -41,7 +41,7 @@ As application design continues to improve and evolve, and developers are asked 
 
 ### Easy Upgrade
 
-Devs can upgrade their TinyMCE 4 instances to TinyMCE 5 with little/no fuss. For instructions on how to migrate, please see the [Migration Guide]({{site.baseurl}}/migrating-from-4.x).
+Devs can upgrade their TinyMCE 4 instances to TinyMCE 5 with little/no fuss. For instructions on how to migrate, please see the [Migration Guide]({{site.baseurl}}/migrating-from-4).
 
 > Note: An instance of TinyMCE with heavy customizations could take longer to upgrade. Please contact [Customer Support](https://support.tiny.cloud) if you are encountering issues with the upgrade.
 
@@ -105,7 +105,7 @@ Shifted to using CSS more for styling, and therefore was able to remove a few le
 
 #### Autofill Values
 
-When opening a properties dialog with a single table/row/cell selected, the dialog will autofill with the relevant existing values. If you select multiple rows or cells and open the relevant properties dialog, Tiny 4 will leave all the dialog fields blank. In TinyMCE 5, fields which have the same values for all the selected rows or cells will autofill, and the fields which have no existing value or have differing values will be empty.
+When opening a properties dialog with a single table/row/cell selected, the dialog will autofill with the relevant existing values. If you select multiple rows or cells and open the relevant properties dialog, TinyMCE 4 will leave all the dialog fields blank. In TinyMCE 5, fields which have the same values for all the selected rows or cells will autofill, and the fields which have no existing value or have differing values will be empty.
 "Border" input field in the `tableprops` dialog is now called "Border width" for clarity.
 
 ### Toolbar buttons

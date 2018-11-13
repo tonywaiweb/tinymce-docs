@@ -1821,7 +1821,7 @@ class: changelog
 * Replaced all events to use the more common <target>.on/off(<event>) methods instead of <target>.<event>.add/remove.
 * Rewrote the TinyMCE core to use AMD style modules. Gets compiled to an inline library using amdlc.
 * Rewrote all core logic to pass jshint rules. Each file has specific jshint rules.
-* Removed all IE6 specific logic since 4.x will no longer support such an old browser.
+* Removed all IE6 specific logic since version 4 will no longer support such an old browser.
 * Reworked the file names and directory structure of the whole project to be more similar to other JS projects.
 * Replaced tinymce.util.Cookie with tinymce.util.LocalStorage. Fallback to userData for IE 7 native localStorage for the rest.
 * Replaced the old 3.x UI with a new modern UI framework.

@@ -102,7 +102,7 @@ editor.addButton('SomeButton', {
 
 ## Dialogs/Windows
 
-In TinyMCE 3.x all dialogs where HTML files loaded in iframes or separate windows. In 4.x all windows are DIV elements placed onto the same page as the editor. You can however still load pages into iframe based windows.
+In TinyMCE 3, all dialogs where HTML files loaded in iframes or separate windows. In version 4, all windows are DIV elements placed onto the same page as the editor. You can however still load pages into iframe based windows.
 
 ```js
 // Open URL based window
@@ -132,4 +132,4 @@ TinyMCE produces HTML5 loose output as of 4.0. This means it can handle all new 
 
 ## Using the compat3x plugin
 
-As a last resort one can use the [compat3x plugin]({{ site.baseurl }}/plugins/compat3x) it mimics parts of the 3.x API contains a few files removed from 4.x. We only recommend this as a last resort, and it won't work for all plugins. But most plugins should work right out of the box we tested it with some of our old 3.x plugins.
+As a last resort one can use the [compat3x plugin]({{ site.baseurl }}/plugins/compat3x) it mimics parts of the version 3 API contains a few files removed from version 4. We only recommend this as a last resort, and it won't work for all plugins. But most plugins should work right out of the box we tested it with some of our old version 3 plugins.

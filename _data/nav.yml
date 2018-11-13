@@ -528,9 +528,9 @@
   - url: "vue"
   - url: "wordpress"
 
-- url: "migration-from-4.x"
+- url: "migration-from-4"
   pages:
-  - url: "migrating4x"
+  - url: "migrating4"
   - url: "considerations"
   - url: "changed-features"
 

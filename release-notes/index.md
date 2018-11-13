@@ -2,7 +2,7 @@
 layout: default
 title: Release Notes
 title_nav: Release Notes
-description: TinyMCE API Release Notes for version 5.0.
+description: TinyMCE API Release Notes for version 5.
 keywords: API api releasenotes release notes
 type: folder
 ---
