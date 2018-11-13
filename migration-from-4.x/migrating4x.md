@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Migrating from TinyMCE 4.x to Tiny 5.0.
-title_nav: Migrating from 4.x
-description: Instructions for migrating from TinyMCE 4.x to Tiny 5.0.
+title: Migrating from TinyMCE 4 to TinyMCE 5.
+title_nav: Migrating from 4
+description: Instructions for migrating from TinyMCE 4 to TinyMCE 5.
 keywords: migration considerations premigration pre-migration
 ---
 
@@ -10,7 +10,7 @@ keywords: migration considerations premigration pre-migration
 
 ### Initialization
 
-The initialization process of Tiny 5.0 is the same as TinyMCE 4.x. The bootstrap process and initialization events all remain the same.  The main difference is in the `init` configuration, specifically the configuration items for UI components.
+The initialization process of TinyMCE 5 is the same as TinyMCE 4. The bootstrap process and initialization events all remain the same.  The main difference is in the `init` configuration, specifically the configuration items for UI components.
 It still retains a familiar JSON structure. However, the properties have been greatly simplified.
 
 ### Plugins
@@ -55,11 +55,11 @@ The following options were newly added:
 
 #### Removed Settings
 
-* **Fixed_toolbar_container**: Owing to the enhancements to the new inline toolbar behaviour, `fixed_toolbar_container` is not required in Tiny 5.0.
+* **Fixed_toolbar_container**: Owing to the enhancements to the new inline toolbar behaviour, `fixed_toolbar_container` is not required in TinyMCE 5.
 
 ### Methods
 
-* All methods for creating UI components in TinyMCE 4.x have been removed.
+* All methods for creating UI components in TinyMCE 4 have been removed.
 * No core editor methods where removed (tinymce, editor, selection, on(), etc remain the same).
 
 

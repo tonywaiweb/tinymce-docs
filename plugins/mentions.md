@@ -81,16 +81,16 @@ tinymce.init({
 
 ### `mentions_menu_hover`
 
-This option is no longer supported in Tiny 5.0
+This option is no longer supported in TinyMCE 5
 
 
 ### `mentions_selector`
 
-This option is no longer supported in Tiny 5.0
+This option is no longer supported in TinyMCE 5
 
 ### `mentions_select`
 
-This option is no longer supported in Tiny 5.0
+This option is no longer supported in TinyMCE 5
 
 ## API
 

@@ -244,7 +244,7 @@ selector: '#myTextarea',
 ```
 
 We next choose a theme, in this case, the silver theme (which is the default theme, so this isn't needed. You can, however, create your own themes using the [TinyMCE Skin Creator](http://skin.tinymce.com/)).
-Note: only the silver theme is currently compatible with Tiny 5
+Note: only the silver theme is currently compatible with TinyMCE 5
 
 > ```js
 theme: 'silver',

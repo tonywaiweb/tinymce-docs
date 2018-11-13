@@ -19,7 +19,7 @@ These settings affect the execution of the `textcolor`. You can set the dimensio
 
 ### `color_cols`
 
-This option allows you to specify how many columns appear on the grid of text colors.  The number of rows is calculated based on how many text colors are supplied divided by the specified number of columns.  The `textcolor_cols` and `textcolor_rows` property has been removed in TinyMCE 5.0.
+This option allows you to specify how many columns appear on the grid of text colors.  The number of rows is calculated based on how many text colors are supplied divided by the specified number of columns.  The `textcolor_cols` and `textcolor_rows` property has been removed in TinyMCE 5.
 
 **Type:** `String`
 

@@ -2,15 +2,15 @@
 layout: default
 title: New Features, Enhancements, and Technology Preview
 title_nav: New Features
-description: These features have been introduced in Tiny 5.0.
+description: These features have been introduced in TinyMCE 5.
 keywords: new features enhancements technology preview
 ---
 
 ## Technology Preview
 
-Tiny 5.0 offers an easy to navigate configurable less cumbersome user interface. The user interface logic has been changed entirely in Tiny 5.0.
+TinyMCE 5 offers an easy to navigate configurable less cumbersome user interface. The user interface logic has been changed entirely in TinyMCE 5.
 
-Tiny 5.0 has an ARIA [IBM standards](https://www.ibm.com/able/checklists.html) compliant user interface in order to make the user interface controls and dynamic content more accessible. In Tiny 5.0, more complex controls or dialogs need to be written in the new API style while keeping the more straightforward methods of adding buttons and windows the same.
+TinyMCE 5 has an ARIA [IBM standards](https://www.ibm.com/able/checklists.html) compliant user interface in order to make the user interface controls and dynamic content more accessible. In TinyMCE 5, more complex controls or dialogs need to be written in the new API style while keeping the more straightforward methods of adding buttons and windows the same.
 
 ## Specifications
 
@@ -29,7 +29,7 @@ Tiny 5.0 has an ARIA [IBM standards](https://www.ibm.com/able/checklists.html) c
 
 Try out our demo page to explore the new UI.
 
-## Tiny 5.0 Demo
+## TinyMCE 5 Demo
 
 {% include codepen.html id="full-featured" height="750" %}
 
@@ -41,27 +41,27 @@ As application design continues to improve and evolve, and developers are asked 
 
 ### Easy Upgrade
 
-Devs can upgrade their Tiny 4.x instances to Tiny 5.0 with little/no fuss. For instructions on how to migrate, please see the [Migration Guide]({{site.baseurl}}/migrating-from-4.x).
+Devs can upgrade their TinyMCE 4 instances to TinyMCE 5 with little/no fuss. For instructions on how to migrate, please see the [Migration Guide]({{site.baseurl}}/migrating-from-4.x).
 
-> Note: An instance of Tiny with heavy customizations could take longer to upgrade. Please contact [Customer Support](https://support.tiny.cloud) if you are encountering issues with the upgrade.
+> Note: An instance of TinyMCE with heavy customizations could take longer to upgrade. Please contact [Customer Support](https://support.tiny.cloud) if you are encountering issues with the upgrade.
 
 ### JavaScript → Modern CSS → Better Exploitation of Modern CSS
 
-Tiny 5.0 offers a modern CSS to provide styled components that leverage the power of a complete programming language — JavaScript — and its scoping capabilities to help structure the code into the components. This helps to avoid the common pitfalls of writing and maintaining CSS for large projects. A developer can describe a component’s style with no risk of side effects.
+TinyMCE 5 offers a modern CSS to provide styled components that leverage the power of a complete programming language — JavaScript — and its scoping capabilities to help structure the code into the components. This helps to avoid the common pitfalls of writing and maintaining CSS for large projects. A developer can describe a component’s style with no risk of side effects.
 
 ### Modern Codebase
 
-Tiny 5.0 codebase has been extensively rewritten focus on converting the UI components to a more modern UI framework. As of consequence of this rewrite, all the related features have been updated. The new framework takes advantage of the latest CSS3 features for streamline styling and is ARIA [IBM standards](https://www.ibm.com/able/checklists.html) compliant. The new UI framework has a reasonably locked-down API for creating components, which means our code is more structured and has an in-built validation combined with TypeScript. This strictness makes our code cleaner and more stable. The new Tiny 5.0 code is cleaner and easier to maintain and troubleshoot.
+TinyMCE 5 codebase has been extensively rewritten focus on converting the UI components to a more modern UI framework. As of consequence of this rewrite, all the related features have been updated. The new framework takes advantage of the latest CSS3 features for streamline styling and is ARIA [IBM standards](https://www.ibm.com/able/checklists.html) compliant. The new UI framework has a reasonably locked-down API for creating components, which means our code is more structured and has an in-built validation combined with TypeScript. This strictness makes our code cleaner and more stable. The new TinyMCE 5 code is cleaner and easier to maintain and troubleshoot.
 
 ### Support Modern Browser Technologies
 
-Tiny 5 now supports IE 11, Chrome, Firefox, Safari, Edge, Opera.
+TinyMCE 5 now supports IE 11, Chrome, Firefox, Safari, Edge, Opera.
 
 ### Enhanced CSS
 
 A **SKIN** in Tinymce is used to make changes to the appearance of the editor, for example, colors, margins, paddings, fonts, icons, etc. A **Theme** is how the editor is constructed (left/top/bottom/right of the editing area - vertical or horizontal, inline or outside, etc.). A skin usually changes the color scheme of a button, dialog, etc. while the theme applies to the whole editor including its functionality and has child skins to change the appearance.
 
-Tiny 5.0 uses a new theme is **Silver** (see below) and a new skin is **Oxide** which uses more modern CSS such as `flexbox`.
+TinyMCE 5 uses a new theme is **Silver** (see below) and a new skin is **Oxide** which uses more modern CSS such as `flexbox`.
 
 The skin creator is coupled with the `tinymce.ui` framework, so it works with the modern theme, the inlite theme, and in some extent MoxieManager.
 
@@ -72,7 +72,7 @@ The skin creator is coupled with the `tinymce.ui` framework, so it works with th
 
 ### Silver
 
-Tiny 5's **Silver** theme contains a set of configurable UI components that could be used to replace the current customizations (modern, inline, and inlite theme). Silver is enabled by default. If you do not specify a theme, it will default to Silver.
+TinyMCE 5's **Silver** theme contains a set of configurable UI components that could be used to replace the current customizations (modern, inline, and inlite theme). Silver is enabled by default. If you do not specify a theme, it will default to Silver.
 
 
 ### New UI
@@ -85,7 +85,7 @@ The Dialog plugin is created for showing dialogs (sometimes referred to as modal
 
 ### Context Menu
 
-The contextMenu can provide a simple list of clickable commands, or offer an in-menu form. This makes the most straightforward attribute modifications possible. Tiny 5.0 offers the ContextMenu Plugin that is designed for web applications in need of menus on a possibly large amount of objects. Now, a single menu is defined that can be used by multiple objects and a ContextMenu doesn't need to bind itself to the triggering objects. This allows injecting and removing triggers without having to re-initialize or update ContextMenu.
+The contextMenu can provide a simple list of clickable commands, or offer an in-menu form. This makes the most straightforward attribute modifications possible. TinyMCE 5 offers the ContextMenu Plugin that is designed for web applications in need of menus on a possibly large amount of objects. Now, a single menu is defined that can be used by multiple objects and a ContextMenu doesn't need to bind itself to the triggering objects. This allows injecting and removing triggers without having to re-initialize or update ContextMenu.
 
 ### Context Toolbars
 
@@ -105,7 +105,7 @@ Shifted to using CSS more for styling, and therefore was able to remove a few le
 
 #### Autofill Values
 
-When opening a properties dialog with a single table/row/cell selected, the dialog will autofill with the relevant existing values. If you select multiple rows or cells and open the relevant properties dialog, Tiny 4 will leave all the dialog fields blank. In Tiny 5.0, fields which have the same values for all the selected rows or cells will autofill, and the fields which have no existing value or have differing values will be empty.
+When opening a properties dialog with a single table/row/cell selected, the dialog will autofill with the relevant existing values. If you select multiple rows or cells and open the relevant properties dialog, Tiny 4 will leave all the dialog fields blank. In TinyMCE 5, fields which have the same values for all the selected rows or cells will autofill, and the fields which have no existing value or have differing values will be empty.
 "Border" input field in the `tableprops` dialog is now called "Border width" for clarity.
 
 ### Toolbar buttons

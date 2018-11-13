@@ -8,7 +8,7 @@ keywords: integration integrate angular angularjs
 
 ## TinyMCE 4 Widget for Dojo
 
-[@caitlineatman](https://github.com/caitlineatman) and [@billeatman](https://github.com/billeatman) have created a TinyMCE 4.x widget for [Dojo](https://dojotoolkit.org/) 1.10+, in which each editor instance can have a unique configuration.
+[@caitlineatman](https://github.com/caitlineatman) and [@billeatman](https://github.com/billeatman) have created a TinyMCE 4 widget for [Dojo](https://dojotoolkit.org/) 1.10+, in which each editor instance can have a unique configuration.
 
 The  [tinymce-dojo-widget](https://github.com/caitlineatman/tinymce-dojo-widget) repository is maintained actively on GitHub.
 

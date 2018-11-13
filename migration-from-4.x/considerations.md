@@ -2,13 +2,13 @@
 layout: default
 title: Considerations
 title_nav: Considerations
-description: Instructions for migrating from TinyMCE 4.x to Tiny 5.0.
+description: Instructions for migrating from TinyMCE 4 to TinyMCE 5.
 keywords: migration considerations premigration pre-migration
 ---
 
 ## Migrating from Previous Versions
 
-The new Tiny 5.0 editor comes with significant changes to the previous versions. The new editor offers an easier to navigate user interface.
+The new TinyMCE 5 editor comes with significant changes to the previous versions. The new editor offers an easier to navigate user interface.
 
 Our team at Tiny has worked on creating a configurable, less cumbersome editor while retaining the familiarity of the user interface from the older versions.
 
@@ -19,26 +19,26 @@ This chapter describes the migration process and workarounds if you are using an
 
 ### Context Toolbars
 
-#### Changes between TinyMCE 4.x and Tiny 5.0:
+#### Changes between TinyMCE 4 and TinyMCE 5:
 
-* Buttons go before and after the input in TinyMCE 4.x.
-* The `Ctrl+K` shortcut does nothing until the context toolbar is visible in TinyMCE 4.x.
-* In Tiny 5.0, the pop animates to its new width.
-* In TinyMCE 4.x., it is a URL input, so you get a popup and a browse button.
+* Buttons go before and after the input in TinyMCE 4.
+* The `Ctrl+K` shortcut does nothing until the context toolbar is visible in TinyMCE 4.
+* In TinyMCE 5, the pop animates to its new width.
+* In TinyMCE 4, it is a URL input, so you get a popup and a browse button.
 
 ### Tables
 
-Changes between TinyMCE 4.x and Tiny 5.0:
+Changes between TinyMCE 4 and TinyMCE 5:
 
 * Styles text field has been removed from the advanced table of the dialogs. This simplifies the dialogs for users and gives the editor stricter control over the table styles which means we are better able to ensure the styles are correct.
 * Improved how styles are set and retrieved from tables, rows, and cells, so this should be more reliable now.
 * Shifted to using CSS more for styling, and therefore was able to remove a few legacy data attributes that we were configuring on tables/rows/cells which are no longer good practice to use. This makes the output HTML cleaner and more modern.
-* When opening a properties dialog with a single table/row/cell selected, the dialog will autofill with the relevant existing values. If you select multiple rows or cells and open the relevant properties dialog, TinyMCE 4.x will leave all the dialog fields blank. In Tiny 5.0, any fields which have the same values for all the selected rows or cells will autofill, and the fields which have no existing value or have differing values will be empty.
+* When opening a properties dialog with a single table/row/cell selected, the dialog will autofill with the relevant existing values. If you select multiple rows or cells and open the relevant properties dialog, TinyMCE 4 will leave all the dialog fields blank. In TinyMCE 5, any fields which have the same values for all the selected rows or cells will autofill, and the fields which have no existing value or have differing values will be empty.
 * "Border" input field in the `tableprops` dialog is now called "Border width", for better clarity.
 
 ### Toolbar buttons
 
-Changes between TinyMCE 4.x and Tiny 5.0:
+Changes between TinyMCE 4 and TinyMCE 5:
 
 * The methods for adding toolbar buttons have been moved to a different part of the editor API.
 * `onclick` is now onAction, which is given `api` as an argument to give the user some helper functions.
@@ -54,7 +54,7 @@ The methods for registering toolbar buttons have moved to a different part of th
 
 `onclick` is now `onAction`. The callback function given to onAction should take a `buttonApi` argument that's passed to the onAction callback is an object that contains some helper functions. Each type of toolbar button has a different set of API functions. [link to custom toolbar buttons pages?] Example:
 
-##### TinyMCE 4.x:
+##### TinyMCE 4:
 
 ```js
 editor.addButton('mybutton', {
@@ -62,7 +62,7 @@ editor.addButton('mybutton', {
   onclick: () => alert("My Button clicked!")
 });
 ```
-###### Tiny 5.0:
+###### TinyMCE 5:
 
 ```js
 editor.ui.registry.addButton('myButton', {
@@ -74,7 +74,7 @@ editor.ui.registry.addButton('myButton', {
 
 `cmd: string` has been removed as a configuration options, and commands should be executed in `onAction` instead. Example:
 
-##### TinyMCE 4.x:
+##### TinyMCE 4:
 
 ```js
 editor.addButton('mybutton', {
@@ -82,7 +82,7 @@ editor.addButton('mybutton', {
   cmd: 'mceSave'
 });
 ```
-##### Tiny 5.0:
+##### TinyMCE 5:
 
 ```js
 editor.ui.registry.addButton('myButton', {
@@ -93,7 +93,7 @@ editor.ui.registry.addButton('myButton', {
 #### onpostrender
 `onPostRender` has been removed, and instead you should use `onSetup`. Example:
 
-#####  TinyMCE 4.x:
+#####  TinyMCE 4:
 
 ```js
 editor.addButton('currentdate', {
@@ -108,7 +108,7 @@ editor.addButton('currentdate', {
   }
 });
 ```
-#####  Tiny 5.0:
+#####  TinyMCE 5:
 
 ```js
 editor.ui.registry.addButton('customDateButton', {
@@ -140,7 +140,7 @@ Toolbar button types have changed from basic, split, listbox, and menu to basic,
 Each button type also has an API of helper methods that can be used within its `onAction` and `onSetup` callbacks. This also removes the need for using the `this` keyword in the `onSetup` and `onAction` callbacks.
 
 Example:
-##### TinyMCE 4.x:
+##### TinyMCE 4:
 
 ```js
 editor.addButton('mybutton', {
@@ -151,7 +151,7 @@ editor.addButton('mybutton', {
   }
 });
 ```
-##### Tiny 5.0:
+##### TinyMCE 5:
 
 ```js
 editor.ui.registry.addButton('myButton', {
