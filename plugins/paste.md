@@ -204,7 +204,7 @@ tinymce.init({
 
 ### `paste_retain_style_properties`
 
-This option allows you to specify which styles you want to retain when pasting contents from MS Word and similar Office suite products. This option can be set to a space-separated list of CSS style names, or `"all"` if you want all styles to be retained.
+This option allows you to specify which styles you want to retain when pasting contents from Microsoft Word and similar products. This option can be set to a space-separated list of CSS style names, or `"all"` if you want all styles to be retained.
 
 **Type:** `String`
 

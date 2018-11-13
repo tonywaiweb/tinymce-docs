@@ -82,7 +82,7 @@ class: changelog
 * Fixed a bug where readonly mode would not work as expected when the editor contained `contentEditable=true` elements.
 * Fixed a bug where the[ Link Plugin]({{ site.baseurl }}/plugins/link) would throw an error when used together with the webcomponents polyfill. Patch contributed by 4esnog.
 * Fixed a bug where the "Powered by TinyMCE" branding link would break on XHTML pages. Patch contributed by tistre.
-* Fixed a bug where the same id would be used in the blobcache for all pasted images. Patch contributed by thorn0.
+* Fixed a bug where the same ID would be used in the blobcache for all pasted images. Patch contributed by thorn0.
 
 ## Version 4.7.11 April 11, 2018
 * Added a new imagetools_credentials_hosts option to the [Imagetools Plugin]({{ site.baseurl }}/plugins/imagetools).
@@ -469,7 +469,7 @@ class: changelog
 ## Version 4.5.3 - February 1, 2017
 * Added keyboard navigation for menu buttons when the menu is in focus.
 * Added api to the list plugin for setting custom classes/attributes on lists.
-* Added validation for the anchor plugin input field according to W3C id naming specifications.
+* Added validation for the anchor plugin input field according to W3C ID naming specifications.
 * Fixed bug where media placeholders were removed after resize with the forced_root_block setting set to false.
 * Fixed bug where deleting selections with similar sibling nodes sometimes deleted the whole document.
 * Fixed bug with inlite theme where several toolbars would appear scrolling when more than one instance of the editor was in use.
@@ -636,7 +636,7 @@ class: changelog
 * Fixed bug where it was possible to place the caret inside the resize grid elements.
 * Fixed bug where it wasn't possible to place in elements horizontally adjacent cE=false blocks.
 * Fixed bug where multiple notifications wouldn't be properly placed on screen.
-* Fixed bug where multiple editor instance of the same id could be produces in some specific integrations.
+* Fixed bug where multiple editor instance of the same ID could be produces in some specific integrations.
 
 ## Version 4.3.12 - May 10, 2016
 * Fixed bug where focus calls couldn't be made inside the editors PostRender event handler.
@@ -814,7 +814,7 @@ class: changelog
 
 * Added capability to set request headers when using XHRs.
 * Added capability to upload local images automatically default delay is set to 30 seconds after editing images.
-* Added commands ids mceEditImage, mceAchor and mceMedia to be avaiable from execCommand.
+* Added commands IDs mceEditImage, mceAchor and mceMedia to be avaiable from execCommand.
 * Added Edge browser to saucelabs grunt task. Patch contributed by John-David Dalton.
 * Fixed bug where blob uris not produced by tinymce would produce HTML invalid markup.
 * Fixed bug where selection of contents of a nearly empty editor in Edge would sometimes fail.
@@ -1343,7 +1343,7 @@ class: changelog
 * Fixed bug where the ObjectResizeStart event didn't get fired properly by the ControlSelection class.
 * Fixed bug where the autolink plugin would steal focus when loaded on IE 9+.
 * Fixed bug where the editor save method would remove the current selection when called on an inline editor.
-* Fixed bug where the formatter would merge span elements with parent bookmarks if an id format was used.
+* Fixed bug where the formatter would merge span elements with parent bookmarks if an ID format was used.
 * Fixed bug where WebKit/Blink browsers would scroll to the top of the editor when pasting into an empty element.
 * Fixed bug where removing the editor would cause an error about wrong document on IE 11 under specific circumstances.
 * Fixed bug where Gecko would place the caret at an incorrect location when using backspace.
@@ -1476,7 +1476,7 @@ class: changelog
 * Fixed so the CSS compression of styles like "border" is a bit better for mixed values.
 * Fixed so the template_popup_width/template_popup_height option works properly in the template plugin.
 * Fixed so the languages parameter for AddOnManager.requireLangPack works the same way as for 3.x.
-* Fixed so the autosave plugin uses the current page path, query string and editor id as it's default prefix.
+* Fixed so the autosave plugin uses the current page path, query string and editor ID as it's default prefix.
 * Fixed so the fullpage plugin adds/removes any link style sheets to the current iframe document.
 
 
@@ -1641,7 +1641,7 @@ class: changelog
 * Fixed bug where link editing in inline mode would cause exception on IE/WebKit.
 * Fixed bug where IE 10 wouldn't render the last button group properly in inline mode due to wrapping.
 * Fixed bug where localStorage initialization would fail on Firefox/Chrome with disabled support.
-* Fixed bug where image elements would get an __mce id when undo/redo:ing to a level with image changes.
+* Fixed bug where image elements would get an __mce ID when undo/redo:ing to a level with image changes.
 * Fixed bug where too long template names wouldn't fit the listbox in template plugin.
 * Fixed bug where alignment format options would be marked disabled when forced_root_block was set to false.
 * Fixed bug where UI listboxes such as fontsize, fontfamily wouldn't update properly when switching editors in inline mode.

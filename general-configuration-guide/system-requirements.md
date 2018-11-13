@@ -33,10 +33,10 @@ Please use the [issues tracker on GitHub](https://github.com/tinymce/tinymce/iss
 |Chrome  | YES     | YES | YES       |
 |Firefox | YES     | YES | YES       |
 |Edge    | YES     | N/A | N/A       |
-|IE 11   | YES     | N/A | N/A       |
-|IE 10   | NO      | N/A | N/A       |
-|IE 9    | NO      | N/A | N/A       |
-|IE 8    | NO      | N/A | N/A       |
+|Internet Explorer 11   | YES     | N/A | N/A       |
+|Internet Explorer 10   | NO      | N/A | N/A       |
+|Internet Explorer 9    | NO      | N/A | N/A       |
+|Internet Explorer 8    | NO      | N/A | N/A       |
 |Safari  | N/A     | YES | N/A       |
 
 TinyMCE fully supports the most recent version of all supported browsers listed above. If vendors offer an Extended Support Release (e.g., Firefox) we also officially support the latest ESR from each vendor. As each browser vendor releases new major versions (e.g. Chrome 61 vs. Chrome 62) we provide support for the prior major version for 60 days after the prior release is superseded.

@@ -237,7 +237,7 @@ To help get you started, let's walk through an example of a basic TinyMCE config
 
 #### Breakdown of the Above Example
 
-First, we want to select only the `textarea` with the id `myTextarea`.
+First, we want to select only the `textarea` with the CSS ID selector `myTextarea`.
 
 > ```js
 selector: '#myTextarea',

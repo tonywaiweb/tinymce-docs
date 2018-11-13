@@ -55,7 +55,7 @@ Tiny 5.0 codebase has been extensively rewritten focus on converting the UI comp
 
 ### Support Modern Browser Technologies
 
-Tiny 5 now supports IE 11, Chrome, Firefox, Safari, Edge, Opera.
+Tiny 5 now supports Internet Explorer 11, Chrome, Firefox, Safari, Edge, Opera.
 
 ### Enhanced CSS
 

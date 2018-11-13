@@ -146,7 +146,7 @@ var buttonConfig = {
 }
 ```
 
-**Name:** The name property on the button is used to identify which button was clicked. The name property is used as an id attribute to identify dialog components. When we define name: `foobutton` and a user clicks on that button. The dialog `onAction` handler will fire and provide event `details.name` will be `foobutton`. This will allow developers to create a click handler for ‘foobutton’. See dialog `[onAction]()` configuration.
+**Name:** The name property on the button is used to identify which button was clicked. The name property is used as an ID attribute to identify dialog components. When we define name: `foobutton` and a user clicks on that button. The dialog `onAction` handler will fire and provide event `details.name` will be `foobutton`. This will allow developers to create a click handler for ‘foobutton’. See dialog `[onAction]()` configuration.
 
 **Text:** This will be the displayed button text. For example, text: ‘do magic’ will create a button with text ‘do magic’. Dialog buttons do not support icons at the moment.
 

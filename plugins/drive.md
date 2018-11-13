@@ -132,7 +132,7 @@ Your storage and bandwidth quota varies based upon the [Tiny Cloud Plan](https:/
 
 ## Upload Files URL
 
-All files are uploaded to a central storage with a CDN endpoint that means that we are hosting your files and they are publicly available in read-only mode for anyone that has access to the URL of that file.
+All files are uploaded to a central storage with a content delivery network endpoint that means that we are hosting your files and they are publicly available in read-only mode for anyone that has access to the URL of that file.
 The URL format for each file is `https://drive.tiny.cloud/1/{your-api-key}/{uuid}` and gets generated when a file is uploaded.
 If you move or rename a file, it will still have the same unique URL, so the restructuring of your files using Drive won't affect where they are being used. However, deleting a file will mark the URL as being unused, and the URL will not continue to work.
 

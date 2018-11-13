@@ -68,7 +68,7 @@ $privateKey = <<<EOD
 EOD;
 
 $payload = array(
-  "sub" => "123",           // Unique user id string
+  "sub" => "123",           // Unique user ID string
   "name" => "John Doe",     // Full name of user
   "exp" => time() + 60 * 10 // 10 minutes expiration
 );
@@ -106,7 +106,7 @@ const privateKey = `
 
 app.post('/jwt', function (req, res) {
   const payload = {
-    sub: '123',         // Unique user id string
+    sub: '123',         // Unique user ID string
     name: 'John Doe',   // Full name of user
     exp: Math.floor(Date.now() / 1000) + (60 * 10) // 10 minutes expiration
   };

@@ -16,7 +16,7 @@ tinymce.init({
 });
 ```
 
-### Replace a textarea element with id 'editable'
+### Replace a textarea element with CSS ID selector 'editable'
 
 **Type:** `String`
 
@@ -30,7 +30,7 @@ tinymce.init({
 
 When using this option in TinyMCE's inline editing mode, the selector can be used on any block element and will edit the content in place instead of replacing the element with an `iframe`.
 
-### Inline editing mode on a div element with id 'editable'
+### Inline editing mode on a div element with the CSS ID selector 'editable'
 
 **Type:** `String`
 

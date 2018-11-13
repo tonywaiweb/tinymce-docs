@@ -52,7 +52,7 @@ Use the editor in your templates like this:
 
 The editor accepts the following inputs:
 
-* `id`: An id for the editor so you can later grab the instance by using the `tinymce.get('ID')` method on tinymce, defaults to an automatically generated uuid.
+* `id`: A CSS ID selector for the editor so you can later grab the instance by using the `tinymce.get('ID')` method on tinymce, defaults to an automatically generated uuid.
 * `init`: Object sent to the `tinymce.init` the method used to initialize the editor.
 * `initialValue`: The Initial value that the editor will be initialized with.
 * `inline`: Shorthand for setting that the editor should be inline, `<editor [inline]="true"></editor>` is the same as setting `{inline: true}` in the init.

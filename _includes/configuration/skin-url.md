@@ -1,6 +1,6 @@
 ## skin_url
 
-If you are using TinyMCE skins, this option enables you to specify the location of the skin file. This is useful if you are loading TinyMCE from one URL, for example a CDN, while loading a skin on, say, a local server.
+If you are using TinyMCE skins, this option enables you to specify the location of the skin file. This is useful if you are loading TinyMCE from one URL, for example a content delivery network, while loading a skin on, say, a local server.
 
 **Type:** `String`
 

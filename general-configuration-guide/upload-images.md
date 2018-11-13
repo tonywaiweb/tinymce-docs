@@ -44,7 +44,7 @@ An example PHP upload handler implementation is available [here]({{ site.baseurl
 Images are sent to the Image Uploader via HTTP POST with each post containing a single image. The image handler at the URL referenced in the `images_upload_url` takes care of the process required to "save" the image in your application. Some examples would include:
 
  * Save the item in a folder on your web server
- * Save the item on a CDN server
+ * Save the item on a content delivery network
  * Save the item in a database
  * Save the item in an asset management system
 

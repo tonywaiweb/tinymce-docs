@@ -1,12 +1,12 @@
 ## body_id
 
-This option enables you to specify an id for the body of each editor instance. This id can then be used to do TinyMCE specific overrides in your `content_css`.
+This option enables you to specify a CSS ID selector for the body of each editor instance. This ID can then be used to do TinyMCE specific overrides in your `content_css`.
 
 **Type:** `String`
 
 ##### Example
 
-This will add the same id to all editors that gets created by the `init` call.
+This will add the same ID to all editors that gets created by the `init` call.
 
 ```js
 tinymce.init({
@@ -15,7 +15,7 @@ tinymce.init({
 });
 ```
 
-This will set specific ids on the bodies of specific editors.
+This will set specific IDs on the bodies of specific editors.
 
 ```js
 tinymce.init({

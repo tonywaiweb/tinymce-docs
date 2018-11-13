@@ -19,7 +19,7 @@ Include this line of code in the `<head>` of your page:
 
 With the script included, initialize TinyMCE on any element (or elements) in your web page.
 
-Since TinyMCE lets you identify replaceable elements via a CSS3 selector all you need do is pass an object that contains a selector to `tinymce.init()`.
+Since TinyMCE lets you identify replaceable elements via a CSS selector all you need do is pass an object that contains a selector to `tinymce.init()`.
 
 In this example, let's replace `<textarea id='mytextarea'>` with a TinyMCE editor instance by passing the selector `'#mytextarea'` to `tinymce.init()`.
 
