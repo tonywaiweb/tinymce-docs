@@ -6,32 +6,29 @@ description: Get an instance of TinyMCE up and running in less than 5 minutes.
 keywords: tinymce script textarea
 ---
 
-TinyMCE is a powerful and flexible rich text editor that you can embed in your web application. 
+TinyMCE is a powerful and flexible WYSIWYG HTML editor that you can embed in your web application for editing rich text. 
 
-The Developer Preview is perfect for developers who want to see how Tiny 5.0 integrates into their ecosystem.
+The Developer Preview is perfect for developers who want to see how version 5.0 integrates into their application prior to its full release.
+
 
 ## Step 1: Include the TinyMCE script
 
-Download and unzip the pre-compiled [Developer Preview Zip](https://devpreview.tiny.cloud/download/tinymce.zip).
-
-Alternatively, you can build your own with the [Developer Preview SDK](https://github.com/tinymce/tinymce/tree/5.x).
-
-Include this line of code in the `<head>` of your HTML page and link to the tinymce.min.js source file:
+Include this line of code in the `<head>` of your HTML page and link to `tinymce.min.js`:
 
 ```html
 <script src='https://devpreview.tiny.cloud/demo/tinymce.min.js'></script>
 ```
 
-> Tip: We give you a complete HTML snippet in Step 2.
+Alternatively, download and unzip the [Developer Preview zip](https://devpreview.tiny.cloud/download/tinymce.zip) or build your own from the TinyMCE [Github repository](https://github.com/tinymce/tinymce/tree/5.x).
 
 
 ## Step 2: Initialize TinyMCE as part of a web form
 
 With the script included, initialize TinyMCE on any element (or elements) in your web page.
 
-Since TinyMCE lets you identify replaceable elements via a CSS selector, all you need to do is pass an object that contains a `selector` to `tinymce.init()`.
+Identify the elements for TinyMCE to replace via a `selector` value in the JSON configuration passed to `tinymce.init()`.
 
-In this example, let's replace `<textarea id='mytextarea'>` with a TinyMCE editor instance by passing the selector `'#mytextarea'` to `tinymce.init()`.
+As an example, replace `<textarea id='mytextarea'>` with a TinyMCE editor instance by passing the selector `'#mytextarea'` to `tinymce.init()`.
 
 ```html
 <!DOCTYPE html>
@@ -57,7 +54,7 @@ In this example, let's replace `<textarea id='mytextarea'>` with a TinyMCE edito
 
 ## Step 3: Saving content with a form POST
 
-When the `<form>` is submitted the TinyMCE editor mimics the behavior of a normal HTML `<textarea>` during the `POST`. In your form handler, you can process the content submitted as if it had come from a regular `<textarea>`.
+When the `<form>` is submitted the TinyMCE editor mimics the behavior of a normal HTML `<textarea>` during the form `POST` action. In your form handler, you can process the content submitted as if it had come from a regular `<textarea>`.
 
 That is all there is to it!
 
