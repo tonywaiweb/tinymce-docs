@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Quick Start
+title: Quickstart
 description_short: Setup TinyMCE in less than 5 minutes.
 description: Get an instance of TinyMCE up and running in less than 5 minutes.
 keywords: tinymce script textarea
@@ -46,7 +46,7 @@ In this example, let's replace `<textarea id='mytextarea'>` with a TinyMCE edito
 </head>
 
 <body>
-<h1>TinyMCE Quick Start Guide</h1>
+<h1>TinyMCE Quickstart</h1>
   <form method="post">
     <textarea id="mytextarea">Hello, World!</textarea>
   </form>
