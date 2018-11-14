@@ -63,5 +63,5 @@ If you want to try it for yourself, [download the Chinese language](https://www.
 </html>
 ```
 
-{% assign_page next_page = "/general-configuration-guide/system-requirements/index.html" %}
+{% assign_page next_page = "/resources/system-requirements/index.html" %}
 {% include next-step.html next=next_page %}

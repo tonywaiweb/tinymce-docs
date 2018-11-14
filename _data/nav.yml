@@ -15,7 +15,6 @@
   - url: "spell-checking"
   - url: "filter-content"
   - url: "localize-your-language"
-  - url: "system-requirements"
   - url: "get-support"
 
 # 2
@@ -55,8 +54,35 @@
   - url: "#configuringmobile"
   - url: "#browsercompatibility"
 
+#5
+- url: "how-to"
+  pages:
+  - url: "handle-async-image-uploads"
+  - url: "php-upload-handler"
+  - url: "creating-custom-notifications"
+  - url: "yeoman-generator"
+  - url: "migration-from-4.x"
+    pages:
+    - url: "migrating4x"
+    - url: "considerations"
+    - url: "changed-features" 
+  # - url: "creating-a-custom-button"
+  # - url: "creating-a-skin"
+  # - url: "creating-a-plugin"
+  # - url: "annotations"
+  # - url: "creating-custom-dialogs"
+  # - url: "creating-a-sidebar"
+  - url: "usage-with-module-loaders"
+  - url: "contributing-docs"
+  - url: "contributing-to-open-source"
 
-# 5
+#6
+- url: "concepts"
+  pages:
+  - url: "security"
+
+
+# 7
 - url: "plugins"
   pages:
   - url: "a11ychecker"
@@ -278,7 +304,7 @@
     - url: "#wordcount_countregex"
 
 
-# 6
+# 8
 - url: "reference"
   pages:
   - url: "configuration"
@@ -457,9 +483,7 @@
       - url: "#SplitButton"
       - url: "#MenuButton"
 
-
-
-# 7
+# 9
 - url: "enterprise"
   pages:
   - url: "tiny-comments"
@@ -485,27 +509,7 @@
   - url: "get-tinymce-bugs-fixed"
   - url: "system-requirements"
 
-# 8
-- url: "advanced"
-  pages:
-  - url: "contributing-to-open-source"
-  - url: "contributing-docs"
-  - url: "accessibility"
-  - url: "security"
-  # - url: "creating-a-custom-button"
-  # - url: "creating-a-skin"
-  # - url: "creating-a-plugin"
-  # - url: "annotations"
-  - url: "yeoman-generator"
-  # - url: "creating-custom-dialogs"
-  - url: "creating-custom-notifications"
-  # - url: "creating-a-sidebar"
-  - url: "handle-async-image-uploads"
-  - url: "php-upload-handler"
-  - url: "keyboard-shortcuts"
-  - url: "usage-with-module-loaders"
-
-# 9
+  # 10
 - url: "integrations"
   pages:
   - url: "angularjs"
@@ -519,16 +523,12 @@
   - url: "vue"
   - url: "wordpress"
 
-# 10
-- url: "migration-from-4.x"
-  pages:
-  - url: "migrating4x"
-  - url: "considerations"
-  - url: "changed-features"
-
 # 11
 - url: "resources"
   pages:
   - url: "new-features"
+  - url: "system-requirements"
+  - url: "keyboard-shortcuts"
+  - url: "accessibility"
   - url: "changelog"
   - url: "known-issues"
