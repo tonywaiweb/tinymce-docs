@@ -7,5 +7,5 @@ keywords:
 type: folder
 ---
 
-{% assign links = site.data.nav[5].pages %}
+{% assign links = site.data.nav[4].pages %}
 {% include index.html links=links %}

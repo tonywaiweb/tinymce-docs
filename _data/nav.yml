@@ -1,14 +1,13 @@
 - url: "quick-start"
 
 # 1
-- url: "general-configuration-guide"
+- url: "tutorials"
   pages:
   - url: "basic-setup"
   - url: "use-tinymce-classic"
   - url: "use-tinymce-inline"
   - url: "use-tinymce-distraction-free"
   - url: "multiple-editors"
-  - url: "advanced-install"
   - url: "work-with-plugins"
   - url: "customize-ui"
   - url: "upload-images"
@@ -18,9 +17,10 @@
   - url: "get-support"
 
 # 2
-- url: "cloud-deployment-guide"
+- url: "install"
   pages:
   - url: "coming-soon"
+  - url: "advanced-install"
   # - url: "editor-and-features"
   # - url: "features-only"
   # - url: "editor-plugin-version"
@@ -48,13 +48,7 @@
   - url: "file-picker"
   - url: "local-upload"
 
-# 4
-- url: "mobile"
-  pages:
-  - url: "#configuringmobile"
-  - url: "#browsercompatibility"
-
-#5
+#4
 - url: "how-to"
   pages:
   - url: "handle-async-image-uploads"
@@ -73,16 +67,18 @@
   # - url: "creating-custom-dialogs"
   # - url: "creating-a-sidebar"
   - url: "usage-with-module-loaders"
+  - url: "custom"
+  - url: "modifying"
   - url: "contributing-docs"
   - url: "contributing-to-open-source"
 
-#6
+#5
 - url: "concepts"
   pages:
   - url: "security"
+  - url: "mobile"
 
-
-# 7
+#6
 - url: "plugins"
   pages:
   - url: "a11ychecker"
@@ -304,7 +300,7 @@
     - url: "#wordcount_countregex"
 
 
-# 8
+#7
 - url: "reference"
   pages:
   - url: "configuration"
@@ -483,33 +479,8 @@
       - url: "#SplitButton"
       - url: "#MenuButton"
 
-# 9
-- url: "enterprise"
-  pages:
-  - url: "tiny-comments"
-  - url: "tinydrive"
-  - url: "moxiemanager"
-  - url: "paste-from-word"
-  - url: "check-spelling"
-    pages:
-    - url: "custom"
-  - url: "check-links"
-  - url: "embed-media"
-    pages:
-    - url: "mediaembed-server-config"
-    - url: "mediaembed-server-integration"
-  - url: "accessibility"
-  - url: "mentions"
-  - url: "server"
-    pages:
-    - url: "configure"
-    - url: "troubleshoot"
-  - url: "advcode"
-  - url: "support"
-  - url: "get-tinymce-bugs-fixed"
-  - url: "system-requirements"
 
-  # 10
+  # 8
 - url: "integrations"
   pages:
   - url: "angularjs"
@@ -523,12 +494,13 @@
   - url: "vue"
   - url: "wordpress"
 
-# 11
+# 9
 - url: "resources"
   pages:
   - url: "new-features"
   - url: "system-requirements"
   - url: "keyboard-shortcuts"
   - url: "accessibility"
+  - url: "support"
   - url: "changelog"
   - url: "known-issues"

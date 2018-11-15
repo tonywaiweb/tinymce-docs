@@ -7,5 +7,5 @@ description: TinyMCE is not only the most advanced rich text editor it's also th
 type: folder
 ---
 
-{% assign links = site.data.nav[8].pages %}
+{% assign links = site.data.nav[7].pages %}
 {% include index.html links=links %}

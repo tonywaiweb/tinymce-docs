@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 04. Use TinyMCE Distraction-free
+title: Use TinyMCE Distraction-free
 description: Theme that renders a lightweight UI for inline editing.
 keywords: theme inlite distraction-free
 ---
@@ -83,5 +83,3 @@ tinymce.init({
 * [theme]({{ site.baseurl }}/configure/editor-appearance/#theme)
 
 
-{% assign_page next_page = "/general-configuration-guide/multiple-editors/index.html" %}
-{% include next-step.html next=next_page %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 07. Work With Plugins
+title: Work With Plugins
 description_short: Learn about TinyMCE's plugin functionality and discover our Top 10 plugins.
 description: TinyMCE is an incredibly powerful, flexible and customizable rich text editor. In this section, we show you the power of plugins with several working examples.
 keywords: plugin
@@ -143,5 +143,3 @@ Customizing TinyMCE with the default plugins is that easy. There are 40 default 
 | **9**    | Table         | [table]({{ site.baseurl }}/plugins/table/) |
 | **10**   | Text Color    | [textcolor]({{ site.baseurl }}/plugins/textcolor) |
 
-{% assign_page next_page = "/general-configuration-guide/customize-ui/index.html" %}
-{% include next-step.html next=next_page %}

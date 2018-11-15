@@ -6,6 +6,44 @@ description: Check spelling as-you-type in TinyMCE.
 keywords: tinymcespellchecker spellchecker_language spellchecker_languages spellchecker_rpc_url spellchecker_dialog ephox English US UK Danish Dutch Finnish French German Italian Norwegian Portuguese Brazilian European Spanish Swedish
 ---
 
+
+
+
+**Spell Checker Pro** adds spell check as-you-type capabilities to TinyMCE. This includes inline spell checking and a dialog mode that steps a user through each error offering a list of suggested corrections.
+
+The following languages are supported:
+
+|Language                   | Code   |
+|:--------------------------|:-------|
+| English                   | en     |
+| English (UK)              | en_uk, en_gb, en_br |
+| Danish                    | da     |
+| Dutch                     | nl     |
+| Finnish                   | fi     |
+| French                    | fr     |
+| German                    | de     |
+| Italian                   | it     |
+| Norwegian                 | nb     |
+| Portuguese (Brazil)       | pt     |
+| Portuguese (Europe)       | pt_pt  |
+| Spanish                   | es     |
+| Swedish                   | sv     |
+
+## Custom Dictionaries
+Additional dictionaries can be added to Spell Checker Pro to supplement the default vocabulary. See instructions for details.
+
+## Downloading Spell Checker Pro
+
+A [TinyMCE Enterprise](https://www.tinymce.com/pricing/) subscription includes the ability to download and install a spell check as-you-type feature for the editor.
+
+**Spell Checker Pro** requires a client-side plugin to be configured. It also requires an additional server-side component to be installed and configured.
+
+
+
+
+
+*****
+
 **Spell Checker Pro** adds spell check as-you-type capabilities to TinyMCE.
 
 The following languages are supported:

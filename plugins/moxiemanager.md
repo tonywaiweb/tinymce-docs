@@ -6,6 +6,9 @@ description: File and image management plugin and service
 keywords: amazon azure premium pro enterprise tiny relative_urls
 ---
 
+
+## File and Image Management Using Moxie Manager
+
 {% include pardot-px-moxiemanager.html %}
 
 MoxieManager is a premium TinyMCE plugin and server system that enables users to insert files located externally to the editor (e.g. on their client desktop) into their document.

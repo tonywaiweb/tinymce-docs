@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 11. Filter Content
+title: Filter Content
 description: Learn how to create clean, maintainable and readable content.
 ---
 
@@ -105,6 +105,3 @@ tinymce.init({
   schema: 'html5'
 });
 ```
-
-{% assign_page next_page = "/general-configuration-guide/localize-your-language/index.html" %}
-{% include next-step.html next=next_page %}

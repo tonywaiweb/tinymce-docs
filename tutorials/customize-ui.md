@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 08. Customize UI
+title: Customize UI
 description: Learn how to change the appearance of the editor.
 keywords: themes skins statusbar
 ---
@@ -149,6 +149,3 @@ tinymce.init({
 We realize we covered toolbars in an earlier step but they're such an integral part of the experience your users have with the TinyMCE editor that the more practice, the better.
 
 > `*` There are ways to restrict whether the resize handle can be dragged, which you'll discover when deep diving into plugins and advanced configuration options.
-
-{% assign_page next_page = "/general-configuration-guide/upload-images/index.html" %}
-{% include next-step.html next=next_page %}

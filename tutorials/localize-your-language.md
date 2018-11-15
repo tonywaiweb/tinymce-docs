@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 12. Localize TinyMCE
+title: Localize TinyMCE
 description: Localize TinyMCE with global language capabilities.
 keywords: internationalization localization languages
 ---
@@ -62,6 +62,3 @@ If you want to try it for yourself, [download the Chinese language](https://www.
 </body>
 </html>
 ```
-
-{% assign_page next_page = "/resources/system-requirements/index.html" %}
-{% include next-step.html next=next_page %}

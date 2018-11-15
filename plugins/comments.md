@@ -8,9 +8,37 @@ keywords: comments commenting tinycomments
 
 ## Introduction
 
-The Tiny Comments plugin provides the user an ability to start or join a conversation by adding comments to the content within the TinyMCE editor. The Comments plugin is built upon the new [Annotations API]({{ site.baseurl }}/advanced/annotations/) and uses annotations to create comment threads (conversations).
+The Tiny Comments plugin provides the user an ability to start or join a conversation by adding comments to the content within the TinyMCE editor. The Comments plugin is built upon the new [Annotations API]({{ site.baseurl }}/advanced/annotations/) and uses annotations to create comment threads (*conversations*).
+
+Comments offer the following primary functionality:
+
+* A **user interface** to collaborate on content by creating and replying to comments.
+* A way to control the delete operation on a comment/comment thread if you want to remove it from your content.
+
+### Buy Comments
+
+Start with our [dedicated product page](https://www.tiny.cloud/pricing/) to see our flexible pricing options. Enterprise customers should [contact sales directly](https://www.tinymce.com/pricing/).
+
+
+## Primary Comments Functions
+
+The Comments plugin allows the user to perform the following functions:
+
+* Create a comment
+* Reply to a comment
+* Delete a comment/comment thread
+* Lookup a comment
+* Store a comment
 
 This section describes the various configuration options for the Comments plugin.
+
+## Comments Demo
+
+In this example, we highlight the features in Comments, including adding a comment, replying to a comment, and deleting a comment. For more information on the other Comments configuration options, see the [docs]({{ site.baseurl }}/plugins/comments/).
+
+{% include codepen.html id="tinycomments-realtime" %}
+
+
 
 ## Storage
 

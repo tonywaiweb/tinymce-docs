@@ -1,45 +1,87 @@
 ---
 layout: default
 title: System Requirements
-description: Official TinyMCE browser support.
-keywords: browser compatibility explorer ie safari firefox chrome edge
+description: Consolidated system requirements for TinyMCE Enterprise features.
+keywords: support supported browser browsers windows osx linux ie8 chrome firefox safari
 ---
-## Mobile Supported Platforms
 
-We're pleased to introduce [TinyMCE mobile](https://www.tinymce.com/mobile), available in TinyMCE version 4.7 and above.
+## Supported Browsers
 
-TinyMCE mobile is designed to run on iOS Safari and Android Chrome. You'll find a streamlined interface while keeping the most common touch interactions easily to hand. We tested mobile on the following platforms:
+[Go to this page]({{ site.baseurl }}/general-configuration-guide/system-requirements/) for information on which browsers are supported by TinyMCE.
 
-{% include mobile_platform_compatibility.md %}
+## Word Copy/Paste
 
-Please visit our [mobile page](https://www.tinymce.com/mobile) to download the self-hosted package. If you're using TinyMCE Cloud, mobile is available in the `dev` branch.
+Word copy and paste is supported on all the browsers supported by TinyMCE Enterprise. There is some variances of functionality for different browsers. Please see the information below for more details.
 
-If you use other platforms and encounter bugs, please let us know in the [TinyMCE issue tracker](https://github.com/tinymce/tinymce/issues).
+### Feature Matrix and Browser Support
 
-For further information on TinyMCE mobile setup and configuration, please visit [TinyMCE mobile documentation]({{ site.baseurl }}/mobile).
 
-## Browser Compatibility
+|                      | HTML Cleaning | Improved HTML Cleaning | Image Import |
+|----------------------| :-------------: | :----------------------: | :------------: |
+| Internet Explorer 8  | X |   |   |
+| Internet Explorer 9  | X |   |   |
+| Internet Explorer 10+| X | X | X |
+| Chrome Current       | X | X | X |
+| Firefox Current      | X | X | X |
+| Safari 6.1+          | X | X | X |
 
-TinyMCE uses advanced JavaScript and tries to be as smart as possible when it comes to different browsers. The primary focus is on Chrome, Firefox, Internet Explorer, and Safari.
+#### HTML Cleaning
 
-If a browser is not listed on this page, it doesn't mean TinyMCE won't work. An unlisted browser might mean that TinyMCE may not have been fully tested on that browser. To determine compatibility with an unlisted browser, try out the examples on our website.
+On all browsers PowerPaste provides basic HTML cleaning. For browsers where HTML5 support is not available PowerPaste uses the browser DOM to import and clean HTML. This mechanism is the primary cleaning method on browsers where HTML5 clipboard APIs are not available. While the resulting content is clean HTML the direct conversion to a browser DOM can result in some loss of content structure and/or formatting information.
 
-Since TinyMCE version 4.6.0 Internet Explorer 8-10 is not supported, if you need legacy browser support, the 4.5.X branch is maintained with critical fixes.
+#### Improved HTML Cleaning
 
-Please use the [issues tracker on GitHub](https://github.com/tinymce/tinymce/issues) to submit bugs on the listed browsers only.
+On browsers that support HTML5 APIs PowerPaste is able to use improved HTML cleaning techniques.  Improved HTML cleaning uses HTML5 clipboard APIs to access the clipboard directly. It can perform more complex and intelligent cleaning of the HTML than the basic HTML cleaning approach.  This better preserves the original document structure and formatting (when importing formatting). Where available this approach gives the highest fidelity copy and paste possible from Microsoft Word and HTML.
 
-|Browser | Windows | Mac | GNU/Linux |
-|--------|---------|-----|-----------|
-|Chrome  | YES     | YES | YES       |
-|Firefox | YES     | YES | YES       |
-|Edge    | YES     | N/A | N/A       |
-|IE 11   | YES     | N/A | N/A       |
-|IE 10   | NO      | N/A | N/A       |
-|IE 9    | NO      | N/A | N/A       |
-|IE 8    | NO      | N/A | N/A       |
-|Safari  | N/A     | YES | N/A       |
+#### Image Import
 
-TinyMCE fully supports the most recent version of all supported browsers listed above. If vendors offer an Extended Support Release (e.g., Firefox) we also officially support the latest ESR from each vendor. As each browser vendor releases new major versions (e.g. Chrome 61 vs. Chrome 62) we provide support for the prior major version for 60 days after the prior release is superseded.
+On browsers that support HTML5 PowerPaste is able to import images embedded in the content (e.g. from Microsoft Word) into the editor.  These images can then be uploaded via a HTTP post as required.
 
-{% assign_page next_page = "/general-configuration-guide/get-support/index.html" %}
-{% include next-step.html next=next_page %}
+
+## Spell Checking
+
+Spell checking is supported on all the browsers supported by TinyMCE Enterprise.  
+
+### Internet Explorer 8 and 9 Limitations
+
+Cross Origin Requests (CORS) are not supported in Internet Explorer 8 and 9. For spell checking to work, the ephox-spelling service must be located on the same domain as the TinyMCE client. The domain is considered to be the combination of the protocol (HTTP vs HTTPS), server name and the port as it appears in the browser's address bar.
+
+Internet Explorer 8 will not highlight misspelt words as you type due to browser limitations. Misspelt words are highlighted after the current HTML node is changed (e.g. when the Enter key is pressed and the cursor enters a new paragraph).
+
+### Supported Application Servers
+
+The TinyMCE spell checking server-side component requires a Java Web Application Server that supports Servlet Implementation API 3.0.
+
+##### Java Development Kit
+
+JDK 7 update 55+
+
+##### Java (J2EE) Application Servers
+
+* Tomcat 7+
+* Jetty 8+
+* WebSphere Application Server (WAS) 8+
+
+#### Operating Systems
+
+* Windows Server 2008 SP2
+* Red Hat Enterprise Linux v6
+* Red Hat Enterprise Linux v5
+
+#### Minimum Hardware Requirements
+
+* CPU:  Dual Core Processor ~ 2Ghz. For higher loads, a quad core or higher is recommended.
+* RAM: 4 Gigabytes of RAM available for services
+
+### Supported TinyMCE versions
+
+TinyMCE provides support for the following versions:
+
+* TinyMCE 4.5
+* TinyMCE 4.7
+
+All commercially supported plugins are supported on these versions.
+
+#### Need more?
+
+Tiny is committed to broadening support for various application servers / platforms. If you have a requirement to support an application server that is not listed here, please contact support@tiny.cloud.

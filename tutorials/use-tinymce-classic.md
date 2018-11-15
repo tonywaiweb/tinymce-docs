@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 02. Use TinyMCE Classic
+title: Use TinyMCE Classic
 description: Theme that renders iframe or inline modes using the tinymce core UI framework.
 keywords: theme classic
 ---
@@ -37,5 +37,3 @@ tinymce.init({
 * [height]({{ site.baseurl }}/configure/editor-appearance/#height)
 
 
-{% assign_page next_page = "/general-configuration-guide/use-tinymce-inline/index.html" %}
-{% include next-step.html next=next_page %}

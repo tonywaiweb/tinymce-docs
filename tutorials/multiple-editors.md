@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 05. Multiple Editors
+title: Multiple Editors
 description_short: Learn how to insert multiple editor instances on a single page.
 description: Learn how to insert multiple editor instances on a single page.
 keywords: form inline edit
@@ -80,6 +80,3 @@ In this next example, each editable area is loaded with an instance of TinyMCE w
 </body>
 </html>
 ```
-
-{% assign_page next_page = "/general-configuration-guide/advanced-install/index.html" %}
-{% include next-step.html next=next_page %}
