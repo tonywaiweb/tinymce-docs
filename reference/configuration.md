@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Editor Configuration Options
-title_nav: Configuration
+title_nav: Options
 description_short:
 description: Essential editor configuration, including `selector` and `plugins` keys.
 ---
