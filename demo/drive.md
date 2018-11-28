@@ -4,7 +4,7 @@ title: Tiny Drive
 title_nav: Tiny Drive
 description_short: Tiny Drive
 description: Tiny Drive. A premium plugin to manage files & images.
-keywords: tinydrive .net php relative_urls
+keywords: tinydrive PHP relative_urls
 ---
 
 ## Live example
@@ -18,9 +18,9 @@ This example shows you how to use Tiny Drive for your file and image management.
 <h3>An editor for every project</h3>
 <p>Here are some of our customer's most common use cases for TinyMCE:</p>
 <ul>
-<li>Content Management Systems (<em>WordPress, Umbraco</em>)</li>
-<li>Learning Management Systems (<em>Blackboard</em>)</li>
-<li>Customer Relationship Management and marketing automation (<em>Marketo</em>)</li>
+<li>Content management systems (<em>WordPress, Umbraco</em>)</li>
+<li>Learning management systems (<em>Blackboard</em>)</li>
+<li>Customer relationship management and marketing automation (<em>Marketo</em>)</li>
 <li>Email marketing (<em>Constant Contact</em>)</li>
 <li>Content creation in SaaS systems (<em>Eventbrite, Evernote, GoFundMe, Zendesk</em>)</li>
 </ul>

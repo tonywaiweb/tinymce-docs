@@ -14,7 +14,7 @@ tinymce.init({
   protect: [
     /\<\/?(if|endif)\>/g,  // Protect <if> & </endif>
     /\<xsl\:[^>]+\>/g,  // Protect <xsl:...>
-    /<\?php.*?\?>/g  // Protect php code
+    /<\?php.*?\?>/g  // Protect PHP code
   ]
 });
 ```

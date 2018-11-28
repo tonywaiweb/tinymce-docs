@@ -5,7 +5,7 @@ shared_baseurl: ""
 syntax_highlight_theme: "tomorrow-night"
 cdnurl: "https://cloud.tinymce.com/stable/tinymce.min.js"
 codepen_url: "https://devpreview.tiny.cloud/demo/tinymce.min.js"
-default_meta_keywords: tinymce, documentation, docs, plugins, customizable skins, configuration, examples, HTML, php, java, javascript, image editor, inline editor, distraction-free editor, classic editor
+default_meta_keywords: tinymce, documentation, docs, plugins, customizable skins, configuration, examples, HTML, PHP, java, javascript, image editor, inline editor, distraction-free editor, classic editor
 
 exclude:
   - Dockerfile

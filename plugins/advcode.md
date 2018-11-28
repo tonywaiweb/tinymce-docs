@@ -21,4 +21,4 @@ tinymce.init({
 });
 ```
 
-> The Advanced Code Editor plugin is included with a [TinyMCE Enterprise](https://www.tinymce.com/pricing/) subscription. Please [click here](https://www.tinymce.com/pricing/) to learn more about our flexible subscriptions plans.
+> The Advanced Code Editor plugin is premium plugin included with a paid [subscription plan](https://www.tinymce.com/pricing/).

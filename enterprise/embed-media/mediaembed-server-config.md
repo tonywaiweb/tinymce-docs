@@ -197,7 +197,7 @@ ephox {
           "http://*.slideshare.net/*"
         ]
       },
-      # Wordpress
+      # WordPress
       {
         endpoint = "https://public-api.wordpress.com/oembed/?for=ephox"
         schemes = [
