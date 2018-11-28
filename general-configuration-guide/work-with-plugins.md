@@ -50,7 +50,7 @@ The first thing we need to do is include the actual `plugins` key and assign it 
 
 ```js
 tinymce.init({
-  selector: 'textarea',  // note the comma at the end of the line!
+  selector: 'textarea',  // note the comma at the end of the line
   plugins: 'code'
 });
 ```
@@ -61,8 +61,8 @@ Let's also add a toolbar control so that our users can more easily activate this
 
 ```js
 tinymce.init({
-  selector: 'textarea',  // note the comma at the end of the line!
-  plugins: 'code',  // note the comma at the end of the line!
+  selector: 'textarea',  // note the comma at the end of the line
+  plugins: 'code',  // note the comma at the end of the line
   toolbar: 'code'
 });
 ```
@@ -73,9 +73,9 @@ Let's quickly take our minimal design one step further by deleting the menubar e
 
 ```js
 tinymce.init({
-  selector: 'textarea',  // note the comma at the end of the line!
-  plugins: 'code',  // note the comma at the end of the line!
-  toolbar: 'code',  // last reminder, note the comma!
+  selector: 'textarea',  // note the comma at the end of the line
+  plugins: 'code',  // note the comma at the end of the line
+  toolbar: 'code',  // last reminder, note the comma
   menubar: false
 });
 ```

@@ -44,7 +44,7 @@ This option allows you to include specific unordered list item markers in the de
 
 ```js
 tinymce.init({
-    selector: "textarea",  // change this value according to your html
+    selector: "textarea",  // change this value according to your HTML
     plugins: "advlist",
     advlist_bullet_styles: "square"  // only include square bullets in list
 });

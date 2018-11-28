@@ -94,7 +94,7 @@ This option allows you to disable TinyMCE's default paste filters when set to fa
 
 ```js
 tinymce.init({
-  selector: "textarea",  // change this value according to your html
+  selector: "textarea",  // change this value according to your HTML
   plugins: "paste",
   menubar: "edit",
   toolbar: "paste",
@@ -212,7 +212,7 @@ This option allows you to specify which styles you want to retain when pasting c
 
 ```js
 tinymce.init({
-  selector: "textarea",  // change this value according to your html
+  selector: "textarea",  // change this value according to your HTML
   plugins: "paste",
   menubar: "edit",
   toolbar: "paste",

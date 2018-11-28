@@ -38,7 +38,7 @@ tinymce.init({
   setup: (editor) => {
     editor.ui.registry.addButton('myCustomToolbarButton', {
       text: 'My Custom Button',
-      onAction: () => alert('Button clicked!')
+      onAction: () => alert('Button clicked')
     });
   }
 });

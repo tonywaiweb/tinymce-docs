@@ -25,7 +25,7 @@ This example shows you how to use Tiny Drive for your file and image management.
 <li>Content creation in SaaS systems (<em>Eventbrite, Evernote, GoFundMe, Zendesk</em>)</li>
 </ul>
 <p>&nbsp;</p>
-<p>And those use cases are just the start. TinyMCE is incredibly flexible, and with hundreds of APIs there's likely a solution for your editor project. If you haven't experienced Tiny Cloud, get started today. You'll even get a free premium plugin trial &ndash; no credit card required!</p>
+<p>And those use cases are just the start. TinyMCE is incredibly flexible, and with hundreds of APIs there's likely a solution for your editor project. If you haven't experienced Tiny Cloud, get started today. You'll even get a free trial of our premium plugins &ndash; no credit card required.</p>
 </textarea>
 <style>
   button.olark-launch-button {

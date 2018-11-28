@@ -14,7 +14,7 @@ HTML based pages can be loaded into TinyMCE dialogs by using the WindowManager.T
 ```js
 // Opens a HTML page inside a TinyMCE dialog
 editor.windowManager.open({
-  title: 'My html dialog',
+  title: 'My HTML dialog',
   url: 'mydialog.html',
   width: 700,
   height: 600
@@ -26,7 +26,7 @@ Parameters can be passed to the dialog by using the second parameter of the `Win
 ```js
 // Opens an HTML page inside a TinyMCE dialog and pass in two parameters
 editor.windowManager.open({
-  title: 'My html dialog',
+  title: 'My HTML dialog',
   url: 'mydialog.html',
   width: 700,
   height: 600

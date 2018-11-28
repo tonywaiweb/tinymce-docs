@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Quick start
-title_nav: Quick start
+title: Quickstart
+title_nav: Quickstart
 description_short: Setup TinyMCE in less than 5 minutes.
 description: Get an instance of TinyMCE up and running in less than 5 minutes.
 keywords: tinymce script textarea
@@ -60,6 +60,6 @@ In this example, let's replace `<textarea id='mytextarea'>` with a TinyMCE edito
 
 When the `<form>` is submitted the TinyMCE editor mimics the behavior of a normal HTML `<textarea>` during the `POST`. In your form handler, you can process the content submitted as if it had come from a regular `<textarea>`.
 
-That is all there is to it!
+That is all there is to it.
 
 If you prefer to download TinyMCE and install it locally the [Advanced Install]({{  site.baseurl }}/general-configuration-guide/advanced-install/#packagemanagerinstalloptions) page in the [General Configuration Guide]({{  site.baseurl }}/general-configuration-guide) has instructions. This document also provides information about TinyMCE features such as advanced installation options, working with plugins, learning about content filtering, and spell checking.

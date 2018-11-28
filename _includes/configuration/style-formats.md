@@ -11,7 +11,7 @@ It's important to note that the `style_formats` option, while similar in syntax,
 
 ```js
 tinymce.init({
-  selector: 'textarea',  // change this value according to your html
+  selector: 'textarea',  // change this value according to your HTML
   toolbar: "styleselect",
   style_formats: [
     {title: 'Bold text', inline: 'b'},

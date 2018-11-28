@@ -8,7 +8,7 @@ keywords: enterprise bug bugs patch patches
 
 TinyMCE is an open source project that relies on the community, to report and fix bugs. You can do this through our [Github project](https://github.com/tinymce/tinymce).
 
-The team behind TinyMCE invests a lot of time in fixing community-reported bugs - particularly high priority issues. Just check out our [changelog]({{ site.baseurl }}/changelog/) and I am sure you will agree!
+The team behind TinyMCE invests a lot of time in fixing community-reported bugs - particularly high priority issues. Just check out our [changelog]({{ site.baseurl }}/changelog/) and I am sure you will agree.
 
 However, we cannot fix all of the issues that are reported. With 5 million downloads a year we have to triage what impacts the most people.
 

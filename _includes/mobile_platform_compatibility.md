@@ -1,4 +1,4 @@
-## Mobile Platform Compatibility
+## Mobile platform compatibility
 
 | OS        | Browser | Device       |
 |-----------|---------|--------------|

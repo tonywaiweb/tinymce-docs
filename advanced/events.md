@@ -304,7 +304,7 @@ tinymce.init({
   selector: 'textarea',
   init_instance_callback: function (editor) {
     editor.on('Dirty', function (e) {
-      console.log('Editor is dirty!');
+      console.log('Editor is dirty');
     });
   }
 });

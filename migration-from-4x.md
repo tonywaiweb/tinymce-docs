@@ -16,7 +16,7 @@ This chapter describes the migration process and workarounds if you are using Ti
 
 ### Initialization
 
-The initialization process of TinyMCE 5.0 is the same as TinyMCE 4.x. The bootstrap process and initialization events all remain the same. It still retains a familiar JSON structure. Some `init` configuration in the TinyMCE version 5.0 has been updated to simplify the configuration options, specifically the configuration items for [UI components]({{site.baseurl}}/ui-components/). Please see the [Quick Start]({{site.baseurl}}/quick-start) section for more information on setup.
+The initialization process of TinyMCE 5.0 is the same as TinyMCE 4.x. The bootstrap process and initialization events all remain the same. It still retains a familiar JSON structure. Some `init` configuration in the TinyMCE version 5.0 has been updated to simplify the configuration options, specifically the configuration items for [UI components]({{site.baseurl}}/ui-components/). Please see the [Quickstart]({{site.baseurl}}/quick-start) section for more information on setup.
 
 These changes may impact integrations depending upon the level of customization. Refer the table below for a general guide for understanding the impact on your specific integration:
 

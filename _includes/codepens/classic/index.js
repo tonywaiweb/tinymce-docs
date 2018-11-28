@@ -154,7 +154,7 @@ var table = '<p>This table uses features of the non-editable plugin to make the 
 var table2 = '<div> ' +
 '        <p>' +
 '            Templates are a great way to help content authors get started creating content.  You can define the HTML for the template and ' +
-'            then when the author inserts the template they have a great start towards creating content! ' +
+'            then when the author inserts the template they have a great start towards creating content. ' +
 '        </p> ' +
 '        <p> ' +
 '            In this example we create a simple table for providing product details for a product page on your web site.  The headings are ' +

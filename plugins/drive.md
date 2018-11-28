@@ -17,7 +17,7 @@ Once you enable Drive it integrates as the default file picker for the Image, Li
 
 ```js
 tinymce.init({
-  selector: 'textarea',  // change this value according to your html
+  selector: 'textarea',  // change this value according to your HTML
   plugins: 'tinydrive'
 });
 ```

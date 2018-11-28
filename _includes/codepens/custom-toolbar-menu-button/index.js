@@ -29,13 +29,13 @@ tinymce.init({
                   type: 'menuitem',
                   text: 'Sub menu item 1',
                   icon: 'unlock',
-                  onAction: () => editor.insertContent('&nbsp;<em>You clicked Sub menu item 1!</em>')
+                  onAction: () => editor.insertContent('&nbsp;<em>You clicked Sub menu item 1</em>')
                 },
                 {
                   type: 'menuitem',
                   text: 'Sub menu item 2',
                   icon: 'lock',
-                  onAction: () => editor.insertContent('&nbsp;<em>You clicked Sub menu item 2!</em>')
+                  onAction: () => editor.insertContent('&nbsp;<em>You clicked Sub menu item 2</em>')
                 }
               ]
             }

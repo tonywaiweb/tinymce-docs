@@ -44,7 +44,7 @@ This example adds two buttons to the toolbar:
 
 {% include codepen.html id="custom-toolbar-button" tab="js" %}
 
-This example adds two buttons to the toolbar. The first just inserts "It's my button!" into the editor when clicked.
+This example adds two buttons to the toolbar. The first just inserts "It's my button" into the editor when clicked.
 ​
 The second button is an example of how onSetup works. This button inserts a `time` element containing the current date into the editor using a `toTimeHtml()` helper function - a simplified version of TinyMCE's [insertdatetime]({{site.baseurl}}/plugins/insertdatetime/) plugin.
 
