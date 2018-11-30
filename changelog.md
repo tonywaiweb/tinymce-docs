@@ -1328,7 +1328,7 @@ class: changelog
 * Fixed bug where the indent/outdent buttons was enabled though readonly mode was enabled.
 * Fixed bug where the nodeChanged event was fired when readonly mode was enabled.
 * Fixed bug where events like blur could be fired to editor instances that where manually removed on IE 11.
-* Fixed bug where IE 11 would move focus to menubar/toolbar when using the tab key in a form with an editor.
+* Fixed bug where IE 11 would move focus to menu bar/toolbar when using the tab key in a form with an editor.
 * Fixed bug where drag/drop in Safari on Mac didn't work properly due to lack of support for modern dataTransfer object.
 * Fixed bug where the remove event wasn't properly executed when the editor instances where removed.
 * Fixed bug where the selection change handler on inline editors would fail if the editor instance was removed.
