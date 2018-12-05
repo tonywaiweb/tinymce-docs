@@ -6,21 +6,21 @@ description: Dialog is a TinyMCE UI component used to display simple information
 keywords: dialog dialogapi api
 ---
 
-The Dialog API allows plugins to show dialogs (sometimes referred to as modals) in your application. The API supports the use of dynamic content for all aspects and is easily configurable/overridable.
+A dialog is a TinyMCE UI component and the dialog API allows plugins to create dialogs in the application. This API supports the use of dynamic content and is easily configurable and overridable.
 
 ## Use Cases
 
-* **Display simple information** (e.g., source code plugin, displays the HTML code from the content in the dialog).
-* **Display complex information** sections can be contained within tabs (e.g., help dialog or special chars dialog are tabbed dialogs).
-* **Interactive dialogs** use web forms to collect interaction data and then apply the data  (e.g.: search and replace dialog, uses an input field. Where the input text will be used as the search key.)
+* **Display simple information** (e.g., the source code plugin displays the HTML code from content into the dialog).
+* **Display complex information** sections contained within tabs (e.g., help dialog or special character dialog are tabbed dialogs).
+* **Interactive dialogs** use web forms to collect interaction data and then apply the data  (e.g.: search and replace dialog, uses an input field. This input text is used as the search key.)
 
 ##  Types of Dialogs
 
 ### Simple
 
-The simple dialogs are used to display simple information, such as source code plugin, or the HTML code from the content in the dialog. These dialogs need a way to set the desired content into the dialog.
+Simple dialogs are used to display information, for example source code from the source code plugin. These dialogs use the API to pull the desired content into the dialog.
 
-A dialog is a TinyMCE UI component. You can use one of the many TinyMCE components inside your dialogs to fulfill a use case. For example, the `search` and `replace` dialog is made up of two input fields - two check boxes and five buttons. We compose components by using a configuration structure. The most basic configuration structure is this:
+The dialog components satisfy complex use cases due to their highly configurable design. For example, the `search` and `replace` dialog is made up of two input fields, two check boxes, and five buttons. The components are composed using a structured configuration. The following example implements a basic configuration structure:
 
 For example,
 
@@ -28,34 +28,34 @@ For example,
 const dialogConfig = {
    title: 'Just a title',
    body: {
-     type: 'panel', // Note: The root body type can only be of type Panel or TabPanel, see component definitions for `panel` or `tabpanel` below.
-     items: []      //A list of UI component configurations the dialog will have.
+     type: 'panel', // Note: The root body type must be the type Panel or TabPanel. Review the component definitions for `panel` or `tabpanel` below.
+     items: []      //A list of UI component configurations the dialoge.
    },
-   buttons: []    //A list of button configurations the dialog will have.
+   buttons: []    //A list of button configurations the dialog.
 }
 ```
 
-Using the above example, calling `tinymce.activeEditor.windowManager.open(dialogConfig)` will create a dialog with the title `Just a title`, an empty body, and an empty footer without buttons.
+The example above calls `tinymce.activeEditor.windowManager.open(dialogConfig)` that creates a dialog titled `Just a title`, an empty body, and an empty footer without any buttons.
 
 ### Complex
 
-The complex dialogs are used to display complex information. These sections can be contained within tabs. For example, the help dialog or the special chars dialog. These dialogs need a way to set the desired content into a defined tab section.
+Complex dialogs are used to display complex information in sections. These sections can be contained in tabs to meet useability requirements. The API provides the ability to configure the tabs. The help and special characters dialog are good examples of complex, tabbed dialogs.
 
 ### Interactive
 
-The interactive dialogs use web forms to collect interaction data, and then apply the data  (e.g.: The search and replace dialog uses an input field.  Where the input text will be used as the search key). These are the most complex forms of dialogs and requires the ability to define what data is required, and how to get that data when we need it, and how to set the data to what we want.
+Interactive dialogs collect data via a web form and passes that data through the API and deeper into the application. For example, the `search and replace` dialog uses an input field that collects text that is used as a search key. These dialogs are complex. The configuration can define the data that is required and setting and retrieving the data.
 
-The following `Pet Name Machine` example illustrates an interactive dialog:
+The following example illustrates an interactive dialog:
 
 {% include codepen.html id="dialog-pet-machine" height="150" tab="js" %}
 
-The key highlight in this example is the input field for ‘enter the name of a cat’. The name property `catdata` is associated with the `initalData`. All body components that require a name property also require an `initialData` property. This is how the relationship between the underlaying data model and the component is declared. Notice that when we first load the dialog, the input field is pre-populated with `initial cat`. When `initialData.catdata = ''` then on load, the input field should be empty.
+This example assigns the input for `enter the name of a cat` to the name property `catdata`. All body components that require a name property also require an `initialData` property. This declares the relationship between the underlying data model and the component. The input field is pre-populated with `initial cat` when the dialog is first loaded. The initial input field is empty on first load when `initialData.catdata = ''` is declared.
 
-In this example, we declared two buttons to be placed in the dialog footer, **Close** and **Submit**.  These are pre-constructed buttons that perform common actions, such as,
+In the example above, the **Close** and **Submit** buttons are placed in the dialog footer. These pre-constructed buttons perform the following common actions:
 
-* Closing a dialog or submitting a dialog.
+* Closing or submitting a dialog.
 * The type: `close` button is pre-wired to *abort* and *close* the dialog.
-* The type: `submit` button when clicked, will invoke the `onSubmit` callback provided in the configuration. We use that callback to insert the message.  When `onSubmit` is called, a dialog `instanceApi` is passed in as the parameter. The dialog does not close by default because some use cases may require a server side callback confirmation.
+* `submit` button when clicked, will invoke the `onSubmit` callback provided in the configuration. We use that callback to insert the message.  When `onSubmit` is called, a dialog `instanceApi` is passed in as the parameter. The dialog does not close by default because some use cases may require a server side callback confirmation.
 * The type: `cancel` button dismisses an action request.
 * The type: `custom` button can be used to specify your own custom operation.
 
